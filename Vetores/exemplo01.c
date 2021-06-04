@@ -6,7 +6,6 @@ int main(){
     for(int i = 0; i < 5; i++){
         printf("Indice: %d | Valor: %d\n", i, vetor[i]);
     }
-    
     return 0;
 }
 

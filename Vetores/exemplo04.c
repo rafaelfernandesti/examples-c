@@ -6,7 +6,8 @@ int main() {
     printf("Digite um conjunto de caracteres: \n");
     gets(texto);
     for(i=0; texto[i] != '\0'; i++){
-        putchar(texto[i]);
+        putchar(texto[i]);  //pega cada uma das letras/caracteres 
+                            //na string texto e mostra na tela.
         printf("\n");
         
     }

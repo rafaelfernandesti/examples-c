@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <string.h>
 void inicializa(int s[5]){
     for(int i = 0; i<5; i++){
-        s[i] = 0;
+        s[i] = i;
     }
 }
 void mostra(int s[5]){
