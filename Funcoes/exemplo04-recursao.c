@@ -15,10 +15,12 @@ float multiplica(float x, float n)
 
 int main()
 {
-    //Sabia que uma multiplicação pode ser interpretada
-    //como a soma de um número (multiplicando) N (multiplicador) vezes?
-    //Dessa forma 3 * 5 = 3 + 3 + 3 + 3 + 3 = 15. Viu?
-    //Ao somar o número 3 cinco vezes o resultado é o mesmo de 3 * 5.
+    /*
+    Sabia que uma multiplicação pode ser interpretada
+    como a soma de um número (multiplicando) N (multiplicador) vezes?
+    Dessa forma 3 * 5 = 3 + 3 + 3 + 3 + 3 = 15. Viu?
+    Ao somar o número 3 cinco vezes o resultado é o mesmo de 3 * 5.
+    */
     float multiplicando, multiplicador;
     puts("Digite o multiplicando: ");
     scanf("%f", &multiplicando);
