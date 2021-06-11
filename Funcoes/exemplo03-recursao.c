@@ -15,4 +15,3 @@ int main() {
     printf("O fatorial de %d eh %d \n", numero, resultado);
 }
 
-
