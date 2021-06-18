@@ -23,7 +23,6 @@ int main(int argc, char const *argv[])
         }
         fclose(arquivo);
     }
-
     system("pause");
     return 0;
 }

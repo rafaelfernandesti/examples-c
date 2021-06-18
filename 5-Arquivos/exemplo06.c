@@ -2,10 +2,10 @@
 #include <stdlib.h>
 int main(int argc, char const *argv[])
 {
-    char arquivo[50];
+    char nomeDoArquivo[50];
     puts("Digite o nome do arquivo: ");
-    gets(arquivo);
-    int tentaRemover = remove(arquivo);
+    gets(nomeDoArquivo);
+    int tentaRemover = remove(nomeDoArquivo);
     if (tentaRemover == 0)
     {
         printf("Arquivo removido com sucesso!\n");

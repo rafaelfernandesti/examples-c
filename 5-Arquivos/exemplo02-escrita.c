@@ -9,14 +9,12 @@ int main(int argc, char const *argv[])
     gets(s);
     puts("Digite a mensagem: ");
     gets(mensagem);
-    arquivo = fopen(s,"w");
+    arquivo = fopen(s,"w"); //modo WRITE, que escreve no arquivo e substitui o conteúdo antigo.
     if(arquivo == NULL){
         printf("Erro de abertura.\n");
     }else{
         fprintf(arquivo,"%s\n",mensagem);
         fclose(arquivo);
     }
-    
-    system("pause");
     return 0;
 }

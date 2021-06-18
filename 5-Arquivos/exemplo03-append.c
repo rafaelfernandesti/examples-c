@@ -16,7 +16,6 @@ int main(int argc, char const *argv[])
         fprintf(arquivo,"%s\n",mensagem);
         fclose(arquivo);
     }
-    
     system("pause");
     return 0;
 }

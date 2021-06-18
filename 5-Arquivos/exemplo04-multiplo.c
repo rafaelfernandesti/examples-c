@@ -8,11 +8,6 @@ int main(int argc, char const *argv[])
     puts("Digite o nome do arquivo: ");
     gets(s);
     arquivo = fopen(s, "w");
-    if (arquivo == NULL)
-    {
-        printf("Erro de abertura.\n");
-        exit(1); //finalização forçada do programa
-    }
     do
     {
         //trecho será repetido até programa encontrar uma quebra de linha (ENTER) sozinha.
@@ -20,6 +15,6 @@ int main(int argc, char const *argv[])
         strcat(mensagem, "\n");
         fputs(mensagem, arquivo);
     } while (*mensagem != '\n');
-    system("pause");
+    fclose(arquivo);
     return 0;
 }
